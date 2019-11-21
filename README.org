@@ -90,3 +90,10 @@
   - =gac-debounce-interval= :: A number specifying a buffer between automatic
        commits in seconds. Wait with making an actual commit until this number
        of seconds elapses.
+
+  - =gac-default-message= :: A variable specifying the default commit message to
+       use. It can be ~nil~ (the default, just using the file name as commit
+       message), a string, or a function called with the file name as argument
+       and returning a string.
+
+
